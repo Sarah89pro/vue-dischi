@@ -17,11 +17,14 @@ export default {
 </script>
 
 <style scoped lang="scss">
+@import '../styles/vars';
+@import '@/styles/general';
+
 
 header {
     display: flex;
     justify-content: flex-start;
-    background-color: #2E3A46;
+    background-color: $primary;
     height: 65px;
 }
 
@@ -36,6 +39,5 @@ header {
 }
 
 
-@import '@/styles/general';
 
 </style>
